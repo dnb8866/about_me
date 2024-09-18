@@ -1,0 +1,7 @@
+services:
+  about_me:
+    container_name: about_me
+    build:
+      context: .
+    network_mode: host
+    restart: always
